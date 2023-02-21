@@ -7,8 +7,8 @@ class ProgressBar extends React.Component {
             width: percentage + "%",
         }
         return (
-             <div className="progress">
-                 <div className="progress-bar bg-info"
+             <div className="progress m-3">
+                 <div className="progress-bar progress-bar-striped progress-bar-animated bg-info"
                      role="progressbar"
                      aria-valuenow={percentage}
                      aria-valuemin="0"
